@@ -36,7 +36,7 @@ export default class TextField extends PureComponent {
     labelHeight: 32,
     labelPadding: 4,
     inputContainerPadding: 8,
-    fontFamily: 'Futura',
+    fontFamily: Platform.OS === 'ios' ? 'Futura' : 'SpartanMB',
 
     tintColor: 'rgb(0, 145, 234)',
     textColor: 'rgba(0, 0, 0, .87)',
